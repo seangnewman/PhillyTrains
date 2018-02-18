@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="msapplication-tap-highlight" content="no"/>
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes.
+        See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no,
+                    initial-scale=1, maximum-scale=1, minimum-scale=1,
+                    width-device=device-width, height-device=device-height,
+                    target=densitydpi=device-dpi">
+        <title>Hello World</title>
+        <!-- jquery required at top to apply stylings (Prevents the flash) -->
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link type="text/css" rel="stylesheet" href="./resources/css/styles.css">
+    </head>
+    <body>
+      <main id="container">
+        <header>
+          <h2>SEPTA System Status</h2>
+        </header>
+        <article>
+          <section>
+          <label for="stations">Stations</label>
+          <select id="stations"></select>
+          <button id="btnGetSched">Get Schedule</button>
+        </section>
+        <section>
+
+          <p>Press the button to retrieve the current train schedule.</p>
+          <section id="schedule"></div>
+        </article>
+
+      </main>
+
+  <!--      <script type="text/javascript" src="cordova.js"></script> -->
+        <script type="text/javascript" src="./resources/js/stations.js"></script>
+        <script type="text/javascript" src="./resources/js/script.js"></script>
+    </body>
+</html>

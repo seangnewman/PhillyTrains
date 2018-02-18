@@ -1,0 +1,23 @@
+#container{
+  margin: 8px;
+}
+
+table{
+  font-size: .85en;
+  width: 100%;
+}
+
+.odd{
+  background-color: #244fa1;
+  color:white;
+}
+
+.even{
+  background-color: #f1442a;
+  color:white;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;;
+}
